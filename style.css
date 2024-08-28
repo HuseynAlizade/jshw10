@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: ghostwhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.name{
+    font-size: 70px;
+}
+
+.text{
+    font-size: 30px;
+}
+
+.forSignUP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    border: none;
+    border-radius: 20px;
+    box-shadow:1px 1px 10px gray;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pass{
+    margin: 10px 0px 10px 0px;
+}
+
+#submit{
+    margin: 10px 0px 10px 0px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    height: 60px;
+    width: 400px;
+   
+}
+
+.btn{
+    margin: 10px 0px 10px 0px;
+    background-color: yellowgreen;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 200px;
+ 
+}
+
